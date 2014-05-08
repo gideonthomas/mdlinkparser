@@ -2,7 +2,7 @@ var assert = require("assert");
 var parser = require("../index");
 
 function isEqual(arr1, arr2) {
-    if(!arr1.isArray() || !arr2.isArray())
+    if(!Array.isArray(arr1) || !Array.isArray(arr2))
         return false;
 
     if(arr1.length != arr2.length)
