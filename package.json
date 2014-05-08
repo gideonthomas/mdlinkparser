@@ -1,7 +1,7 @@
 {
   "name": "mdlinkparser",
   "version": "0.0.0",
-  "description": "Parse links in a markdown document into plain text",
+  "description": "Parse links in a markdown string into plain text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
