@@ -8,6 +8,9 @@
   },
   "author": "Gideon Thomas <r.gideonthomas@gmail.com>",
   "license": "ISC",
+  "dependencies" : {
+    "amdefine": ">=0.1.0"
+  }
   "devDependencies": {
     "grunt": "~0.4.4",
     "grunt-contrib-jshint": "~0.10.0",
