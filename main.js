@@ -11,6 +11,8 @@ require(["./index"],
                    listOfLinks += "\n";
                }
 
+               console.log(listOfLinks);
+
                linkText.value = listOfLinks;
            };
        });
