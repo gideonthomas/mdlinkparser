@@ -3,17 +3,35 @@
     <head>
         <title></title>
         <meta charset="utf-8" />
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
+        <link href="https://stuff.webmaker.org/makerstrap/latest/makerstrap.complete.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet" type="text/css">
+
         <script data-main="./main" src="./require.js"></script>
     </head>
     <body>
-        <div class="main">
-            <textarea id="markdown" class="text">
-            </textarea>
-            <button id="linkButton" value="Get links"></button>
+        <header>
+            Markdown Link Parser
+        </header>
+        <br />
+        <div id="main">
+            <span id="instructions">Enter any markdown text below</span>
+            <br />
+            <div id="textarea1">
+                <textarea id="markdown" class="text"></textarea>
+            </div>
             <br />
             <hr />
-            <textarea id="links" class="text" readonly>
-            </textarea>
+            <span id="linkTitle">Links <span id="instruction2">[Click outside the textbox to see the links]</span></span>
+            <br />
+            <div id="textarea2">
+                <textarea id="links" class="text" readonly></textarea>
+            </div>
         </div>
+        <br />
+        <footer>
+            This project was created using NodeJS, LESS and Require.js
+        </footer>
     </body>
 </html>

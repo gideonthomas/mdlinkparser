@@ -1,7 +1,7 @@
 require(["domReady", "./index"],
        function(domReady, parser) {
            domReady(function() {
-               document.getElementById("linkButton").onclick = function() {
+               document.getElementById("markdown").onblur = function() {
                    var markdown = document.getElementById("markdown").value;
                    var result = parser.parse(markdown);
                    var listOfLinks = "";
