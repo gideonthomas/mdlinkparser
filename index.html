@@ -3,17 +3,17 @@
     <head>
         <title></title>
         <meta charset="utf-8" />
-        <script data-main="./index.js" src="./require.js"></script>
+        <script data-main="./main" src="./require.js"></script>
     </head>
     <body>
         <div class="main">
             <form>
-                <textarea>
+                <textarea id="markdown" class="text">
                 </textarea>
-                <button value="Get links" onclick=""></button>
+                <button id="linkButton" value="Get links" onclick="getLinks()"></button>
                 <br />
                 <hr />
-                <textarea readonly>
+                <textarea id="links" class="text" readonly>
                 </textarea>
             </form>
         </div>
