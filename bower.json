@@ -1,0 +1,21 @@
+{
+  "name": "gideonthomas_mdlinkparser",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gideonthomas/mdlinkparser",
+  "authors": [
+    "gideonthomas <r.gideonthomas@gmail.com>"
+  ],
+  "description": "Parses links in a markdown string into plain text",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
