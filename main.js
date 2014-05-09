@@ -1,4 +1,4 @@
-define(["./index"],
+require(["./index"],
        function(parser) {
            return function getLinks() {
                var markdown = document.getElementById("markdown").value;
