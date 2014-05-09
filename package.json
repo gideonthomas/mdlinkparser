@@ -1,5 +1,5 @@
 {
-  "name": "mdlinkparser",
+  "name": "gideonthomas_mdlinkparser",
   "version": "0.0.0",
   "description": "Parse links in a markdown string into plain text",
   "main": "index.js",
